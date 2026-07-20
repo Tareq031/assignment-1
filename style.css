@@ -100,3 +100,50 @@ nav ul li{
 }
 
 
+
+
+/* Speakers */
+
+.speakers{
+    padding:80px 8%;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:50px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+   
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:20px;
+}
+
+.card-body h3{
+    margin-bottom:10px;
+}
+
+.card-body p{
+    color:#777;
+}
+.card .card-body .dep{
+    font-size: bold;
+    color: #671bf4;
+}
