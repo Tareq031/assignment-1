@@ -79,6 +79,7 @@ nav ul li{
 }
 
 .hero-content{
+    margin-top: 100px;
     position:relative;
     color:#fff;
     max-width:1000px;
@@ -96,7 +97,7 @@ nav ul li{
 }
 .hero-content .btn{
     
-    margin-top: 700px;
+    margin-top: 50px;
 }
 
 
@@ -171,7 +172,7 @@ nav ul li{
     display:flex;
     justify-content:center;
     gap:50px;
-    flex-wrap:wrap;
+   
 }
 
 .price-card{
@@ -219,3 +220,70 @@ nav ul li{
 .price-card button:hover{
     background:#1d4ed8;
 }
+
+/* relevant section */
+
+
+.schedule{
+    padding:80px;
+    background:#f8f9fc;
+    text-align:center;
+}
+
+.schedule h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.schedule .subtitle{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.schedule-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+   
+}
+
+.schedule-card{
+    width:320px;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+   
+}
+
+
+.schedule-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.schedule-card h4{
+    margin-bottom:15px;
+}
+
+.schedule-card p{
+    margin:10px 0;
+    color:#555;
+}
+
+
+/* Footer */
+
+footer{
+    background:#0f172a;
+    color:#fff;
+    padding:30px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-right{
+    display:flex;
+    align-items:right;
+}
+
+
