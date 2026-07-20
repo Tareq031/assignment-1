@@ -147,3 +147,75 @@ nav ul li{
     font-size: bold;
     color: #671bf4;
 }
+
+
+/* Pricing */
+
+.pricing{
+    padding:80px ;
+    background:#f7f8fc;
+}
+.pricing .subtitle{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:60px;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:50px;
+}
+
+.price-container{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.price-card{
+    width:500px;
+    background:#f6f1f1;
+    border-radius:10px;
+    padding:50px;
+    height:450px;
+    
+    
+}
+.price-card-2{
+    width:500px;
+    background:#f9e5e5;
+    border-radius:10px;
+    padding:50px;
+    height:450px;
+    
+    
+}
+
+.price-card.active{
+    background:#0f172a;
+    color:#fff;
+}
+
+.price-card h1{
+    margin:20px 0;
+    font-size:50px;
+}
+
+.price-card ul{
+    
+    margin:30px 0;
+}
+
+.price-card ul li{
+    margin:15px 0;
+}
+
+.price-card button{
+    text-align: center;
+}
+
+.price-card button:hover{
+    background:#1d4ed8;
+}
